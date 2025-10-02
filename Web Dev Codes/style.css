@@ -1,0 +1,220 @@
+ 
+body {
+background-image: url("bg picture.png");
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #fdf6ed;
+color: #3b2c25;
+}
+header {
+  background-image: url("background beans.png"); 
+  background-size: cover;   
+  background-position: center; 
+  color: #e9ddbb;
+  text-align: center;
+  padding: 15px 10px; 
+}
+
+header h1 {
+margin: 0;
+font-size: 1.5rem;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.9); 
+letter-spacing: 2px; 
+}
+
+.about p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #4a3a32;
+  font-weight: bold;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f8e8d8;
+padding: 10px 20px;
+}
+nav .tagline {
+  font-family: 'Chewy', cursive;
+  font-size: 1.5rem; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  color: #5c3d2e; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
+}
+
+.tagline-logo {
+  position: fixed;   
+  top: -10px;         
+  left: -15px;        
+  width: 130px;       
+  height: auto;      
+  z-index: 1000;     
+}
+
+nav button {
+background-color: #7a614d;
+color: #fff;
+border: none;
+padding: 8px 15px;
+border-radius: 20px;
+cursor: pointer;
+}
+main {
+padding: 20px;
+}
+.about, .visit, .promo {
+margin-bottom: 40px;
+}
+.about h2, .visit h2, .promo h2 {
+color: #5c3d2e;
+margin-bottom: 10px;
+}
+
+.visit {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; 
+}
+
+.visit ul {
+  flex: 1; 
+}
+
+.visit img {
+  width: 300px;   
+  height: auto;
+  border-radius: 10px;
+   transition: transform 0.4s ease; 
+  transform-origin: center center; 
+}
+.visit img:hover {
+  transform: scale(1.8); 
+}
+
+
+.visit li {
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+footer {
+background-color: #f8e8d8;
+padding: 10px;
+text-align: center;
+font-size: 1rem;
+}
+
+footer nav {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer nav a {
+  background-color: #9a8f78;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+footer nav a:hover {
+  background-color: #7a6b55;
+  transform: translateY(-2px);
+}
+
+
+.promo {
+  background-color: #f8e8d8;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 800px; 
+  text-align: center;
+}
+
+.promo h2 {
+  font-family: 'Fredoka', cursive;
+  font-size: 2.5rem; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  color: #5c3d2e; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
+}
+
+
+.promo p:first-of-type {
+  font-family: 'Fredoka', cursive;  
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5c3d2e; 
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.promo p:last-of-type {
+  font-family: 'Fredoka', cursive;  
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5c3d2e; 
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+
+.promo .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.promo .images .polaroid {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 160px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #3b2c25;
+}
+
+.promo .images .polaroid img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease; 
+}
+
+.promo .images .polaroid img:hover {
+  transform: scale(1.2); 
+}
+
+
+.promo .images .left {
+  transform: rotate(-5deg);
+}
+
+.promo .images .right {
+  transform: rotate(5deg);
+}
+
+.promo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: -70px 0px 0px 0px; 
+}
+
+
+
